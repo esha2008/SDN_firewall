@@ -1,3 +1,5 @@
+This firewall application exists in /pox/pox/misc directory and it runs in accordance with the firewallpolicies.csv .
+
 from pox.core import core
 import pox.openflow.libopenflow_01 as of
 from pox.lib.revent import *
@@ -6,13 +8,10 @@ from pox.lib.addresses import EthAddr, IPAddr
 import pox.lib.packet as pkt
 from collections import namedtuple
 import os
-''' Add your imports here ... '''
 import csv
 
 log = core.getLogger()
-policyFile = "/pox/pox/misc/firewall-policies-ip-addr.csv"
-
-''' Add your global variables here ... '''
+policyFile = "/pox/pox/misc/firewallpolicies.csv"
 
 class Firewall (EventMixin):
 
