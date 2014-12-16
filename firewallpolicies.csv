@@ -1,3 +1,6 @@
+This file exists in /pox/pox/misc directory.
+Host with ip-address ip_0 will be unable to ping the host with ip-address ip_1 and vice versa.
+
 id,ip_0,ip_1
 1,10.0.0.1,10.0.0.6
 2,10.0.0.2,10.0.0.5
