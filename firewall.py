@@ -1,5 +1,3 @@
-This firewall application exists in /pox/pox/misc directory and it runs in accordance with the firewallpolicies.csv .
-
 from pox.core import core
 import pox.openflow.libopenflow_01 as of
 from pox.lib.revent import *
